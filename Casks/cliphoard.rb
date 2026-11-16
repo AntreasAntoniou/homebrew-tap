@@ -1,8 +1,8 @@
-# Homebrew cask for the exact signed, stapled Cliphoard 1.0.4 build 37 ZIP.
+# Homebrew cask for the exact signed, stapled Cliphoard 1.0.4 build 38 ZIP.
 # Publish only after the public archive checksum has been verified.
 cask "cliphoard" do
-  version "1.0.4,37"
-  sha256 "39f45805a05b5d786866f515923af834e636ab957c30855d3fc7c6c4e198486b"
+  version "1.0.4,38"
+  sha256 "a446a267e7ba6cd4470bb7888e7bff8774db3681d35c85cd93b199d6994db5a4"
 
   # Refuse a placeholder checksum.
   if sha256.to_s == "0000000000000000000000000000000000000000000000000000000000000000" &&
@@ -11,7 +11,7 @@ cask "cliphoard" do
          "released archive's sha256 (see RELEASING.md) before publishing."
   end
 
-  url "https://github.com/AntreasAntoniou/cliphoard/releases/download/direct-v1.0.4-build37/Cliphoard-1.0.4-Direct-build37.zip"
+  url "https://github.com/AntreasAntoniou/cliphoard/releases/download/direct-v1.0.4-build38/Cliphoard-1.0.4-Direct-build38.zip"
   name "Cliphoard"
   desc "Fast, private clipboard manager with on-device semantic search"
   homepage "https://github.com/AntreasAntoniou/cliphoard"
